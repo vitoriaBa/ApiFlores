@@ -65,7 +65,7 @@ class FloresController extends Controller
             return'Flor Localizada'.$flore; 
         }
         else{
-         return'FLor Não L0calizada'.Response()->json([],Response::HTTP_NO_CONTENT);
+         return'FLor Não Localizada'.Response()->json([],Response::HTTP_NO_CONTENT);
         }
     }
 
