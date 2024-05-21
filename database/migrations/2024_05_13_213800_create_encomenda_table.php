@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('encomenda', function (Blueprint $table) {
             $table->id();
-            $table->numeric('preco');
+            $table->string('preco');
             $table->string('tamanho');
             $table->timestamps();
         });

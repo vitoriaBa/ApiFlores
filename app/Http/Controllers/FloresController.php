@@ -48,7 +48,7 @@ class FloresController extends Controller
         return'Dados cadastrados com Suceso'.Response()->json([],Response::HTTP_NO_CONTENT); 
        }
        else{
-        return'Dados NAO  cadastrados com Suceso'.Response()->json([],Response::HTTP_NO_CONTENT);
+        return'Dados NAO cadastrados com Suceso'.Response()->json([],Response::HTTP_NO_CONTENT);
        }
     }
 
